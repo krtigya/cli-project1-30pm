@@ -1,5 +1,6 @@
-import sqlite3
 import csv
+import sqlite3
+
 #CLI => COmmand line interface
 #CRUD => CREATE, READ, UPDATE, DELETE
 
