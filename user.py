@@ -4,6 +4,21 @@ import sqlite3
 #CLI => COmmand line interface
 #CRUD => CREATE, READ, UPDATE, DELETE
 
+INPUT_STRING = """
+Enter the option: 
+    1. CREATE TABLE
+    2. DUMP users from csv INTO users TABLE
+    3. ADD new user INTO users TABLE
+    4. QUERY all users from TABLE
+    5. QUERY user by id from TABLE
+    6. QUERY specified no. of records from TABLE
+    7. DELETE all users
+    8. DELETE user by id
+    9. UPDATE user
+    10. Press any key to EXIT
+"""
+
+
 def create_connection():
     try:
         con = sqlite3.connect("users.sqlite3")
