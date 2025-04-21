@@ -195,3 +195,17 @@ def main():
         exit()
 
 main()
+
+#git init => git initalize 
+#git status =>  if you want to check what are the status of files 
+#git diff => if you want to check what are the changes
+#git add . = > Track all the files
+#git commit -m "your message"
+#copy paste git code from github
+
+
+
+#1.change the code
+#2.git add .
+#3.git commit -m "your message"
+#4. git push
